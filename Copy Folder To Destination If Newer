@@ -1,3 +1,8 @@
+'// *************************************************************************** //
+'// This script will copy ALL source files and folders to a Destination folder  //
+'// As long as the source folder is newer by a minimum of 1 second or higher    //
+'// *************************************************************************** //
+
 On Error Resume Next
 
 Dim SrcFolder, DstFolder, SrcDate, DstDate
