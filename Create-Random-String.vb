@@ -32,4 +32,4 @@ End Function
 Public Function ScrambleIt(ByVal phrase As String) As String
     Static rand As New Random()
     Return New String(phrase.ToLower.ToCharArray.OrderBy(Function(r) rand.Next).ToArray)
-End Function
+End Function 
